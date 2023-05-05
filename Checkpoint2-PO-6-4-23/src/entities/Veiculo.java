@@ -11,11 +11,11 @@ public class Veiculo {
     @Override
     public String toString() {
         return "Dados Veiculo: " +
-                ", Placa='" + Placa + '\'' +
+                " Placa='" + Placa + '\'' +
                 ", modelo='" + modelo + '\'' +
                 ", montadora='" + montadora + '\'' +
-                ", ano=" + ano +
-                ' ' + motorista.toString();
+                ", ano=" + ano + '\'' + "; "
+                 + motorista.toString();
     }
 
     public Veiculo(Motorista motorista, String placa, String modelo, String montadora, int ano) {

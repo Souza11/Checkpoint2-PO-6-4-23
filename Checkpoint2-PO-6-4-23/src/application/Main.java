@@ -4,12 +4,18 @@ import entities.Motorista;
 import entities.Pessoa;
 import entities.Veiculo;
 import entities.Viagem;
-
-import java.time.LocalDate;
 import java.util.Random;
 import java.util.Scanner;
 
+
+
 public class Main {
+	
+	//Participantes:
+	//Guilherme Souza da Cruz Rm 95088
+	//Luigi Moreira Nogueira Rm 94694
+	//Pedro Vinicius Pinto da Silva Rm 96257
+	//Lucas Melo de Oliveira Rm 93085
 
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
