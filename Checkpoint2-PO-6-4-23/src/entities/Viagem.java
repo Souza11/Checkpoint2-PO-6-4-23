@@ -7,16 +7,13 @@ public class Viagem {
 
 
     private Veiculo veiculo;
-    private Pessoa pessoa;
     private LocalDate data = LocalDate.now();
     private double valor;
     private String origem;
     private String destino;
 
-    public Viagem(Veiculo veiculo, Pessoa pessoa, LocalDate data, double valor, String origem, String destino) {
+    public Viagem(Veiculo veiculo, double valor, String origem, String destino) {
         this.veiculo = veiculo;
-        this.pessoa = pessoa;
-        this.data = data;
         this.valor = valor;
         this.origem = origem;
         this.destino = destino;
@@ -28,14 +25,6 @@ public class Viagem {
 
     public void setVeiculo(Veiculo veiculo) {
         this.veiculo = veiculo;
-    }
-
-    public Pessoa getPessoa() {
-        return pessoa;
-    }
-
-    public void setPessoa(Pessoa pessoa) {
-        this.pessoa = pessoa;
     }
 
     public LocalDate getData() {

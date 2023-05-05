@@ -11,13 +11,12 @@ public class Motorista {
 
     @Override
     public String toString() {
-        return "Motorista{" +
+        return "Dados Motorista "+
                 "nome='" + nome + '\'' +
                 ", cpf='" + cpf + '\'' +
                 ", celular='" + celular + '\'' +
-                ", habilitacao='" + habilitacao + '\'' +
-                ", categoria='" + categoria + '\'' +
-                '}';
+                ", habilitacao ='" + habilitacao + '\'' +
+                ", categoria='" + categoria;
     }
 
     public Motorista(String nome, String cpf, String celular, String habilitacao, String categoria) {
